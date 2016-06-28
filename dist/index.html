@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><title>html</title><body><h1>PC template</h1><h2>with grunt server</h2><p>you can setup a single page here</p><div class=templates></div><script type=text/html id=detailTPL><div class="wrapper">
+    		<h3 class="title">{{$data.title}}</h3>
+			
+			{{each $data.article as value i}}
+		        <p class="article">
+					{{value}}
+				</p>
+		    {{/each}}
+		</div></script><script type=text/javascript src=../dist/lib/artTemplate/artTemplate.js></script><script type=text/javascript src=../dist/js/data.min.js></script><script src=http://libs.baidu.com/jquery/2.0.0/jquery.min.js></script><script type=text/javascript src=../dist/js/main.min.js></script>
